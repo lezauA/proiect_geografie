@@ -1,0 +1,89 @@
+/* General */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #005f99;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+.section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.section h2, .section h3 {
+    color: #005f99;
+    margin-bottom: 10px;
+}
+
+.section p {
+    margin-bottom: 20px;
+}
+
+.image-placeholder {
+    background-color: #d3d3d3;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 1.2em;
+    color: #555;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+}
+/* Image Styles */
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+figure figcaption {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+}
